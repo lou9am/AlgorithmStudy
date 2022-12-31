@@ -32,7 +32,7 @@ while True:
     ny = y + dy[direction]
 
     if check[nx][ny] == 0 and array[nx][ny] == 0:
-        check[nx][ny] == 1
+        check[nx][ny] = 1
         x, y = nx, ny
         count += 1
         turn_time = 0
