@@ -12,3 +12,8 @@ for i in data:
 left = 3
 right = 4
 print(prefix_sum[right] - prefix_sum[left-1]) 
+
+# Prefix_sum to difference Array
+D = []
+for i in range(n-1):
+    D[i] = prefix_sum[i+1] - prefix_sum[i]
