@@ -19,4 +19,4 @@ def dp_factorial(n):
     dp[0] = 1
     for i in range(1, n+1):
         dp[i] = dp[i-1] * i
-    return dp
+    return dp[n]
